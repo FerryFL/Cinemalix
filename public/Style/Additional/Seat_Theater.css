@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    font-family: 'Work Sans', sans-serif;
+    height: 130vh;
+    width: 100%;
+    background-color: #1E1E1E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+    margin-top: 20px;
+    color: white;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+h4 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.container {
+    width: 60%;
+    height: 76%;
+    border-radius: 20px;
+    background-color: #2A2A2A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+hr {
+    width: 90%;
+}
+
+.wrapper {
+    margin-top: 20px;
+    width: 80%;
+    height: 85%;
+}
+
+.description-header {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-description-header {
+    color: white;
+}
+
+.right-description-header {
+    color: #FFFFFF;
+    text-align: right;
+}
+
+.screen {
+    margin-top: 18px;
+    font-style: italic;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 12%;
+    width: 100%;
+    background-color: red;
+}
+
+.theater {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(23, 30px);
+    grid-gap: 10px;
+}
+
+#alphabet {
+    color: white;
+    font-style: italic;
+    border: none;
+    font-size: 24px;
+    background-color: transparent;
+}
+
+.seat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    width: 30px;
+    height: 30px;
+    background-color: #6D6D6D;
+    margin-right: 5px;
+    color: white;
+}
+
+#number-rows {
+    background-color: transparent;
+    color: white;
+    font-size: 24px;
+    font-style: italic;
+}
+
+.status {
+    margin-top: 20px;
+    font-style: italic;
+    font-size: 26px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.round {
+    margin-left: 7px;
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+}
+
+#unavailable {
+    background-color: #6D6D6D;
+}
+
+#available {
+    margin-left: 20px;
+    background-color: white;
+}
+
+#selected {
+    margin-left: 20px;
+    background-color: #C10000;
+}
+
+.detail-seat {
+    font-size: 20px;
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8%;
+    color: white;
+}
+
+.detail-seat button {
+    color: white;
+    font-size: 24px;
+    border: none;
+    background-color: #C10000;
+    width: 150px;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.enterTicket{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.enterTicket label{
+    font-weight: bold;
+    font-size: 24px;
+}

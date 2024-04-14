@@ -1,0 +1,166 @@
+main {
+    font-family: 'Work Sans', sans-serif;
+    height: 100vh;
+    width: 100%;
+    background-color: #1E1E1E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.error
+{
+    color: red;
+    text-decoration: underline;
+}
+
+.content
+{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    border: solid #505050;
+    border-width: 0px 0px 3px 0px;
+    align-items: center;
+    padding: 30px;
+}
+
+.content h1
+{
+    color: white;
+}
+
+.container ul
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.container ul button
+{
+    color: white;
+    background-color: #C10000;
+    border-color: transparent;
+    padding: 6px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.container p
+{
+    color: white;
+}
+
+.container .FormCreateGenre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    border: solid #505050;
+    border-width: 2px 0px 0px 0px;
+    padding: 30px;
+}
+
+.container .FormCreateGenre input{
+    display: flex;
+    justify-content: space-between;
+    border: 4px solid #C10000;
+    padding: 10px;
+    border-radius: 8px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+    background-color: transparent;
+    width: 200px;
+
+
+}
+
+.container .FormCreateGenre .input-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+
+.container .FormCreateGenre .button-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+
+.container .FormCreateGenre .button-list button{
+    background-color: #C10000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 24px;
+}
+
+
+.container .FormCreateGenre .button-list a{
+    background-color: #C10000;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+}
+
+.formCreate.active{
+    display: none;
+}
+
+.FormCreateGenre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    border: solid #505050;
+    border-width: 2px 0px 0px 0px;
+    padding: 30px;
+}
+
+.formEdit{
+    display: none;
+}
+
+.formEdit.active{
+    display: flex;
+}
+
+.FormCreateGenre button
+{
+    background-color: #C10000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+}
+
+.formList
+{
+    display: flex;
+}
+
+#formDeleteGenre
+{
+    padding: 0%;
+    padding-top: 60px;
+    padding-right: 30px;
+
+}
+
+#formDeleteGenre button{
+    font-weight: bold;
+}
