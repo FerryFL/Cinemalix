@@ -1,0 +1,174 @@
+main{
+    font-family: 'Work Sans', sans-serif;
+    height: 100%;
+    width: 100%;
+    background-color: #1E1E1E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    color: white;
+    margin: 0px;
+    font-size: 48px;
+}
+
+h2 {
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-top: 30px;
+    font-size: 36px;
+}
+
+h3 {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: normal;
+    margin: 0px;
+    font-size: 36px;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    width: 90%;
+}
+
+.left-side {
+    margin-top: 120px;
+}
+
+.left-side img{
+    width: 400px;
+    height: 600px;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    margin-top: 110px;
+    margin-left: 90px;
+    width: 100%;
+}
+
+hr {
+    margin: 30px 0px 60px 0px;
+    height: 1px;
+    border-color: #2A2A2A;
+    background-color: #2A2A2A;
+}
+
+.wrapper-description {
+    display: flex;
+    justify-content: left;
+    align-items: start;
+}
+
+.title-description {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.detail-description {
+    font-weight: normal;
+    display: inline;
+}
+
+.rating {
+    margin-bottom: 30px;
+    margin-left: 60px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #C10000;
+    height: 50px;
+    width: 120px;
+}
+
+#star-img {
+    width: 20px;
+    height: 20px;
+}
+
+.calender-filter {
+    display: flex;
+}
+
+.filter {
+    gap: 5px;
+    color: white;
+    font-size: 24px;
+    width: 120px;
+    height: 60px;
+    border-radius: 5px;
+    margin-left: 100px;
+    background-color: #C10000;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+}
+
+#filter-img {
+    width: 22px;
+    height: 22px;
+}
+
+#line {
+    margin: 0px;
+}
+
+.theatre {
+    margin: 0;
+}
+
+.theatre-2D, .theatre-3D {
+    display: flex;
+    margin-top: 20px;
+}
+
+.theatre-3D {
+    margin-bottom: 30px;
+}
+
+.theatre-2D h3, .theatre-3D h3 {
+    margin-right: 60px;
+}
+
+.time {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C10000;
+    width: 120px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 30px;
+}
+
+.pick-seat {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #C10000;
+    border: none;
+    border-radius: 5px;
+    margin-left: 15px;
+    height: 50px;
+    width: 160px;
+}

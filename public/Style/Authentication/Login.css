@@ -1,0 +1,130 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+main{
+    padding: 20px;
+    padding-top: 80px;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: #1E1E1E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    color: white;
+    background-color: #2A2A2A;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px;
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 425px;
+}
+
+.container .top{
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Ubuntu';
+}
+
+.container .middle{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container a:hover{
+    cursor: pointer;
+    opacity: .7;
+    transition: .15s;
+}
+
+.container .middle .input{
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.container .middle .input .errorMessage{
+    color: #C10000;
+    font-weight: bold;
+}
+
+.container .middle .input .inputBox{
+    display: flex;
+    justify-content: space-between;
+    border: 4px solid #C10000;
+    padding: 10px;
+    border-radius: 8px;
+    height: 50px;
+}
+
+.container .middle .input .inputBox input{
+    background: transparent;
+    border: none;
+    color: white;
+    width: 100%;
+    outline: none;
+}
+
+.container .middle .input .inputBox img:hover{
+    opacity: .7;
+    transition: .15s;
+    cursor: pointer;
+}
+
+.container .middle .input .inputBox img:active{
+    opacity: .5;
+    transition: .1s;
+}
+
+.container .middle a{
+    color: white;
+    padding-bottom: 10px;
+}
+
+.container .bottom{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container .bottom a{
+    color: red;
+    font-weight: bold;
+}
+
+.container .bottom button{
+    background-color: #C10000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 24px;
+}
+
+.container .bottom button:hover{
+    opacity: .8;
+    transition: .15s;
+    cursor: pointer;
+}
+
+.container .bottom button:active{
+    opacity: .6;
+    transition: .1s;
+}
